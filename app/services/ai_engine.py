@@ -12,7 +12,7 @@ import os, json
 # load_dotenv()
 
 # ✅ Initialize Groq client
-os.environ["GROQ_API_KEY"] = "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"
+
 client = Groq(api_key=os.environ["GROQ_API_KEY"])
 
 # --------- ML Functions ----------
