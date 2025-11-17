@@ -4,6 +4,7 @@ An end-to-end AI-powered stock analysis engine built using FastAPI, Machine Lear
 This backend powers the Stock Advisor Dashboard to fetch stock data, predict trends, and generate intelligent investment insights.
 
 🚀 Features
+
 🔹 1. Real-Time Stock Data
 
 Fetches live & historical Indian stock data using Yahoo Finance (yfinance)
