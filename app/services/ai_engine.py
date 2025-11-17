@@ -5,15 +5,14 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, r2_score
 from groq import Groq
 import os, json
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 
 
 # Load environment variables
-# load_dotenv()
+load_dotenv()
 
 # ✅ Initialize Groq client
-
-client = Groq(api_key=os.environ["GROQ_API_KEY"])
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 # --------- ML Functions ----------
 def prepare_ml_data(df, window_size=5):
